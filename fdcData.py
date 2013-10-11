@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
 #modify by neilfu 2013-10-11
+#add a line from gitserver
 def getDetail(url):
     mapDetail={}
     res=s.get(url,headers=headers)
